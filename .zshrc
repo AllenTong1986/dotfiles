@@ -85,3 +85,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Add bx config for Blake elearning work
+eval "$($HOME/Blake/bx/bin/bx init -)"
+# End bx config
