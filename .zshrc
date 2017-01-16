@@ -90,3 +90,8 @@ source $ZSH/oh-my-zsh.sh
 eval "$($HOME/Blake/bx/bin/bx init -)"
 eval "$($HOME/Blake/bd/bin/bd init -)"
 # End bx config
+
+# Ruby, Elixir and Node.js version manager.
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+# end of version manager
